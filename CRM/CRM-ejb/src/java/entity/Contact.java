@@ -15,7 +15,7 @@ public class Contact implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
-    private String contact;
+    private String contactPhone;
     private String email;
 
     public Long getId() {
