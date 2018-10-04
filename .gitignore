@@ -1,18 +1,79 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Compiled class file
+*.class
 
-# Other files and folders
-.settings/
+# Log file
+*.log
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# BlueJ files
+*.ctxt
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.db
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+######################
+# Windows
+######################
+ 
+# Windows image file caches
+Thumbs.db 
+ 
+# Folder config file
+Desktop.ini
+ 
+######################
+# OSX
+######################
+.DS_Store
+.svn
+
+ 
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# NetBeans
+######################
+/build/
+/dist/
+CRM/nbproject/private/
+CRM/nbproject/ant-deploy.xml
+CRM/nbproject/build-impl.xml
+CRM/nbproject/genfiles.properties
+CRM/nbproject/project.properties
+CRM/nbproject/private.properties
+CRM/nbproject/rest-build.xml
+CRM/build/
+CRM/nbbuild/
+CRM/dist/
+CRM/nbdist/
+CRM/nbactions.xml
+CRM/nb-configuration.xml
+CRM/build.xml
+CRM/CRM-ejb/build
+CRM/CRM-ejb/nbproject/
+CRM/CRM-ejb/dist
+CRM/CRM-war/build
+CRM/CRM-war/nbproject
+CRM/CRM-war/dist
+######################
+# Liberty tools
+######################
+
+.factorypath
+
+#diff version of mysql for server
+CRM/setup/glassfish-resources.xml
