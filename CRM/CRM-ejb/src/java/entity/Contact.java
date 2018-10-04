@@ -15,7 +15,7 @@ public class Contact implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
-    private String phone;
+    private String contactPhone;
     private String email;
 
     public Long getId() {
@@ -55,14 +55,14 @@ public class Contact implements Serializable {
      * @return the phone
      */
     public String getPhone() {
-        return phone;
+        return contact;
     }
 
     /**
      * @param phone the phone to set
      */
     public void setPhone(String phone) {
-        this.phone = phone;
+        this.contact = phone;
     }
 
     /**
