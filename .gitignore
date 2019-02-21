@@ -63,13 +63,7 @@ CRM/nbdist/
 CRM/nbactions.xml
 CRM/nb-configuration.xml
 CRM/build.xml
-CRM/CRM-ejb/build
-CRM/CRM-ejb/nbproject/
-CRM/CRM-ejb/nbproject/project.properties
-CRM/CRM-ejb/dist
-CRM/CRM-war/build
-CRM/CRM-war/nbproject
-CRM/CRM-war/dist
+
 ######################
 # Liberty tools
 ######################
